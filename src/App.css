@@ -1,0 +1,132 @@
+.darkmode{
+    height: 100%;
+    border: 2px solid #99A3A6;
+    cursor: pointer;
+}
+
+.wherein{
+    height: 100%;
+}
+
+h5{
+    display: inline;
+}
+
+/* For bootstrap card */
+
+.card-img-top{
+    height: 150px!important;
+}
+
+.card-body{
+    height: 250px!important;
+}
+
+.card-box{
+    height: 400px!important;
+}
+
+.card{
+    cursor: pointer;
+    border: none!important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Some codes for searching area */
+
+input{
+    border: none;
+    background-color: #FAFAFA;
+    width: 80%;
+}
+form{
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+::placeholder{
+    color: rgb(150, 149, 149);
+    font-size: 12px;
+}
+input:focus{
+    outline: none;
+    border: none;
+    color: rgb(90, 89, 89);
+
+}
+
+select{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+/* For "darkmode" */
+
+.dark-mode-bg{
+    transition: all 0.5s;
+    background-color: #606A74;
+}
+.dark-mode-words{
+    transition: all 0.5s;
+    color: #C5C3F8;
+}
+
+.light-mode-bg{
+    transition: all 0.5s;
+    background-color: #F5F5F5;
+}
+
+.dark-mode-cards{
+    transition: all 0.5s;
+    background-color: #506680;
+}
+
+.light-mode-words::placeholder{
+    transition: all 0.5s;
+    color: #F5F5F5;
+}
+
+.light-mode-select{
+    transition: all 0.5s;
+    color: #F5F5F5;
+}
+
+.light-mode-header{
+    transition: all 0.5s;
+    color: white;
+}
+
+/* Some CSS codes for "pagination" */
+
+.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 1px
+}
+
+.pagination .page-num{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.pagination .page-num:hover{
+    transition: all 0.5s;
+    background-color: #99A3A6;
+    color: black;
+}
+
+.pagination .active{
+    transition: all 0.5s;
+    background-color: #99A3A6; 
+    padding: 6px 1.5px;
+    border-radius: 3px;
+
+
+}
