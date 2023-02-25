@@ -36,7 +36,8 @@ function App() {
 
   }, [])
 
-
+  
+  console.log(cards)
 
 
   return (
